@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    {{ range .Data.Pages }}
+            <h3><a href="{{.Permalink}}">{{ .PublishDate.Format "2. Jan 2006" }} | {{ .Title }}</a></h3>
+            <div>{{ .Content }}</div>
+    {{ end }}
+</body>
+</html>
