@@ -202,6 +202,43 @@ body {
     margin: 0 auto;
 }
 
+/* FOOTER */
+
+/*-------------------------------------
+----------------FOOTER-----------------
+-------------------------------------*/
+
+footer {
+    grid-area: footer;
+    background-color: #2A2928;
+    color: #edf1f2;
+    height: 100%;
+    width: 100vw;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.madeby {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.madeby a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #bd8666;
+}
+
+.madeby a:hover {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #a54209;
+}
+
 /* flexbox-grid */
 .box-row {
     position: relative;

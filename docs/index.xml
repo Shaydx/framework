@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forside on Systematik</title>
-    <link>/</link>
+    <link>https://shaydx.github.io/framework/</link>
     <description>Recent content in Forside on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 09:02:08 +0100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shaydx.github.io/framework/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Typografi</title>
-      <link>/docs/typografi/</link>
+      <link>https://shaydx.github.io/framework/docs/typografi/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:29 +0100</pubDate>
       
-      <guid>/docs/typografi/</guid>
+      <guid>https://shaydx.github.io/framework/docs/typografi/</guid>
       <description>Typografi</description>
     </item>
     
     <item>
       <title>Farver</title>
-      <link>/docs/farver/</link>
+      <link>https://shaydx.github.io/framework/docs/farver/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:16 +0100</pubDate>
       
-      <guid>/docs/farver/</guid>
+      <guid>https://shaydx.github.io/framework/docs/farver/</guid>
       <description>Farver</description>
     </item>
     
     <item>
       <title>Om</title>
-      <link>/om/</link>
+      <link>https://shaydx.github.io/framework/om/</link>
       <pubDate>Thu, 01 Feb 2018 08:45:08 +0100</pubDate>
       
-      <guid>/om/</guid>
+      <guid>https://shaydx.github.io/framework/om/</guid>
       <description>Hello World! Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     

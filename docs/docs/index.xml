@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dokumentation on Systematik</title>
-    <link>/docs/</link>
+    <link>https://shaydx.github.io/framework/docs/</link>
     <description>Recent content in Dokumentation on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 08:52:36 +0100</lastBuildDate>
     
-	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shaydx.github.io/framework/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Typografi</title>
-      <link>/docs/typografi/</link>
+      <link>https://shaydx.github.io/framework/docs/typografi/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:29 +0100</pubDate>
       
-      <guid>/docs/typografi/</guid>
+      <guid>https://shaydx.github.io/framework/docs/typografi/</guid>
       <description>Typografi</description>
     </item>
     
     <item>
       <title>Farver</title>
-      <link>/docs/farver/</link>
+      <link>https://shaydx.github.io/framework/docs/farver/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:16 +0100</pubDate>
       
-      <guid>/docs/farver/</guid>
+      <guid>https://shaydx.github.io/framework/docs/farver/</guid>
       <description>Farver</description>
     </item>
     
