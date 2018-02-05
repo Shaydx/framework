@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
+{{ partial "nav-b.html" . }}
     {{ range .Data.Pages }}
             <h3><a href="{{.Permalink}}">{{ .PublishDate.Format "2. Jan 2006" }} | {{ .Title }}</a></h3>
             <div>{{ .Content }}</div>
     {{ end }}
 {{ partial "footer.html" . }}
-</body>
-</html>
