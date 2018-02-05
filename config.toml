@@ -1,7 +1,8 @@
-baseURL = "localhost:1313"
+baseURL = ""
 languageCode = "en-us"
 title = "Systematik"
 theme = "systematik"
+publishDir = "docs"
 
 [[menu.main]]
     name = "Home"

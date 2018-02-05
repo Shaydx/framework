@@ -1,7 +1,6 @@
 ---
 title: "Om"
 date: 2018-02-01T08:45:08+01:00
-draft: true
 ---
 
 # Hello World!
