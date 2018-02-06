@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dokumentation on Systematik</title>
+    <title>Getting Started on Systematik</title>
     <link>https://shaydx.github.io/framework/docs/</link>
-    <description>Recent content in Dokumentation on Systematik</description>
+    <description>Recent content in Getting Started on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 08:52:36 +0100</lastBuildDate>
@@ -12,20 +12,48 @@
     
     
     <item>
-      <title>Typografi</title>
-      <link>https://shaydx.github.io/framework/docs/typografi/</link>
+      <title>Animations</title>
+      <link>https://shaydx.github.io/framework/docs/animations/</link>
+      <pubDate>Tue, 06 Feb 2018 03:28:55 +0100</pubDate>
+      
+      <guid>https://shaydx.github.io/framework/docs/animations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forms</title>
+      <link>https://shaydx.github.io/framework/docs/forms/</link>
+      <pubDate>Tue, 06 Feb 2018 03:15:08 +0100</pubDate>
+      
+      <guid>https://shaydx.github.io/framework/docs/forms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grid</title>
+      <link>https://shaydx.github.io/framework/docs/grid/</link>
+      <pubDate>Tue, 06 Feb 2018 02:57:57 +0100</pubDate>
+      
+      <guid>https://shaydx.github.io/framework/docs/grid/</guid>
+      <description>Grid Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp;amp; lg viewport widths.
+                 &amp;lt;div class=&#34;row&#34;&amp;gt; &amp;lt;div class=&#34;col-xs-12 col-sm-8 col-md-6 col-lg-4&#34;&amp;gt; &amp;lt;div class=&#34;box&#34;&amp;gt;Responsive&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://shaydx.github.io/framework/docs/typography/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:29 +0100</pubDate>
       
-      <guid>https://shaydx.github.io/framework/docs/typografi/</guid>
+      <guid>https://shaydx.github.io/framework/docs/typography/</guid>
       <description>Typografi</description>
     </item>
     
     <item>
-      <title>Farver</title>
-      <link>https://shaydx.github.io/framework/docs/farver/</link>
+      <title>Colors</title>
+      <link>https://shaydx.github.io/framework/docs/colors/</link>
       <pubDate>Thu, 01 Feb 2018 08:53:16 +0100</pubDate>
       
-      <guid>https://shaydx.github.io/framework/docs/farver/</guid>
+      <guid>https://shaydx.github.io/framework/docs/colors/</guid>
       <description>Farver</description>
     </item>
     
