@@ -1,13 +1,42 @@
 {{ partial "header.html" . }}
-    <div class="splash">
-        {{ partial "nav.html" . }}
-        <div class="logo">{{ .Site.Title }}</div>
-        <div class="container">
-            <div class="name animated bounceInDown">Animated Splash</div>
-            <div class="desc animated fadeInLeft">Can be any color</div>
+<div class="splash">
+    {{ partial "nav.html" . }}
+    <div class="logo">{{ .Site.Title }}</div>
+    <div class="name-container">
+        <div class="name animated bounceInDown">Animated Splash</div>
+        <div class="desc animated fadeInLeft">Can be any color</div>
+    </div>
+</div>
+<section id="intro">
+    <div class="row promo">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="center">
+                <div style="font-size:8em; color:#EE7752">
+                    <i class="fas fa-exclamation"></i>
+                </div>
+                <p class="promo-caption">Unique</p>
+                <p class="promo-desc">A Unique framework that will lift any projekt you might have trouble with</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="center">
+                <div style="font-size:8em; color:#E73C7E">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <p class="promo-caption">Mobile Friendly</p>
+                <p class="promo-desc">We did most of the heavy lifting for you to provide a framework  that is completly mobile friendly</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="center">
+                <div style="font-size:8em; color:#23A6D5">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <p class="promo-caption">Colorful & Animated</p>
+                <p class="promo-desc">refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
         </div>
     </div>
-<section id="intro">
     <h2>Grid</h2>
     <p>Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.</p>
     <div class="row">

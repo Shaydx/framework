@@ -1,7 +1,25 @@
 {{ partial "header.html" . }}
-{{ partial "nav-b.html" . }}
+<div class="header">
+    {{ partial "nav.html" . }}
+    <div class="logo">{{ .Site.Title }}</div>
+    <div class="name-container">
+        <div class="name animated bounceIn">{{ .Title }}</div>
+        <div class="desc animated fadeInUp">{{ .Description}}</div>
+    </div>
+</div>
+<div class="row text-container">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2>Documentation</h2>
+        <p>Documentation for everything you can do with the theme. Just select a category and it'll take you straight to the relevant docs. With examples and code snippets that are ready to copy and use on your own projects.</p>
+    </div>
+</div>
+<div class="row promo">
     {{ range .Data.Pages }}
-            <h3><a href="{{.Permalink}}">{{ .PublishDate.Format "2. Jan 2006" }} | {{ .Title }}</a></h3>
-            <div>{{ .Content }}</div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="list center">
+            <a href="{{.Permalink}}">{{ .Title }}</a>
+        </div>
+    </div>
     {{ end }}
+</div>
 {{ partial "footer.html" . }}
