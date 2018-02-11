@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Om on Systematik</title>
+    <link>https://shaydx.github.io/framework/om/</link>
+    <description>Recent content in Om on Systematik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2018 19:34:42 +0100</lastBuildDate>
+    
+	<atom:link href="https://shaydx.github.io/framework/om/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

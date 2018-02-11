@@ -1,38 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://shaydx.github.io/framework/css/flexboxgrid.css">
-    <link rel="stylesheet" href="https://shaydx.github.io/framework/css/style.css">
-    <link rel="stylesheet" href="https://shaydx.github.io/framework/css/normalize.css">
-    <link rel="stylesheet" href="https://shaydx.github.io/framework/css/animate.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
-    <title>Systematik</title>
-</head>
-
-<body>
-<div class="se-pre-con"></div>
-
+{{ partial "header.html" . }}
 <div class="header">
-    <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-        
-        
-        <a href="/framework/" title="Home Section">Home</a> 
-        <a href="/framework/om/" title="Om Section">Om</a> 
-        <a href="/framework/docs/" title="dokumentation Section">Dokumentation</a> 
-    </div>
-</div>
-<a href="javascript:void(0)" class="navbar" onclick="openNav()">&#9776;</a>
-
-    <div class="logo">Systematik</div>
+    {{ partial "nav.html" . }}
+    <div class="logo">{{ .Site.Title }}</div>
     <div class="name-container">
-        <div class="name animated bounceIn">Om</div>
-        <div class="desc animated fadeInUp"></div>
+        <div class="name animated bounceIn">{{ .Title }}</div>
+        <div class="desc animated fadeInUp">{{ .Description}}</div>
     </div>
 </div>
 <div class="wrapper-docs">
@@ -76,26 +48,4 @@
         </div>
     </section>
 </div>
-<footer class="row">
-    <div class="col-xs-12">
-        <p class="copyright">Copyright © 2017 Mishari Toama – All rights reserved</p>
-        <p class="madeby">by <a href="http://www.mtoama.dk/">Mishari Toama</a></p>
-    </div>
-</footer>
-
-<script src="https://shaydx.github.io/framework/js/nav.js"></script>
-<script src="https://shaydx.github.io/framework/js/contact.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-<script>
-    $(window).load(function() {
-        $(".se-pre-con").fadeOut("slow");
-        console.log("det virker");
-    });
-</script>
-</body>
-
-</html>
-
+{{ partial "footer.html" . }}

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Forside on Systematik</title>
+    <title>Systematik</title>
     <link>https://shaydx.github.io/framework/</link>
-    <description>Recent content in Forside on Systematik</description>
+    <description>Recent content on Systematik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2018 09:02:08 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2018 03:28:55 +0100</lastBuildDate>
     
 	<atom:link href="https://shaydx.github.io/framework/index.xml" rel="self" type="application/rss+xml" />
     
@@ -66,17 +66,6 @@
       
       <guid>https://shaydx.github.io/framework/docs/colors/</guid>
       <description>Changing colors in Splash To change the colors of the gradient in the splash section of the frontpage, go to style.css and find: .splash { background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); background-size: 400% 400%; -webkit-animation: Gradient 15s ease infinite; -moz-animation: Gradient 15s ease infinite; animation: Gradient 15s ease infinite; height: 100vh; } and change the value to any color you like. the -45deg can also be changed to change how the gradient is displayed.</description>
-    </item>
-    
-    <item>
-      <title>About Systematik</title>
-      <link>https://shaydx.github.io/framework/om/</link>
-      <pubDate>Thu, 01 Feb 2018 08:45:08 +0100</pubDate>
-      
-      <guid>https://shaydx.github.io/framework/om/</guid>
-      <description>A modern responsive front-end framework Created and designed by Mishari Toama, a Multimediadesign student at Copenhagen School of Design and Technology. Systematic incorporates minimalism with modernism and a colorful palette.
-Designed with the mobile first approach in mind, this framework will work fanstatically on any mobile or tablet.
-Hugo This framework was made for Hugo, the worlds fastest static site generators. Hugo and Systematic together delivers a fast and unique experience.</description>
     </item>
     
   </channel>

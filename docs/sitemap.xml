@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://shaydx.github.io/framework/om/</loc>
+    <lastmod>2018-02-11T19:34:42+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shaydx.github.io/framework/docs/animations/</loc>
     <lastmod>2018-02-06T03:28:55+01:00</lastmod>
   </url>
@@ -23,11 +28,6 @@
   </url>
   
   <url>
-    <loc>https://shaydx.github.io/framework/</loc>
-    <lastmod>2018-02-01T09:02:08+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shaydx.github.io/framework/docs/typography/</loc>
     <lastmod>2018-02-01T08:53:29+01:00</lastmod>
   </url>
@@ -43,12 +43,13 @@
   </url>
   
   <url>
-    <loc>https://shaydx.github.io/framework/om/</loc>
-    <lastmod>2018-02-01T08:45:08+01:00</lastmod>
+    <loc>https://shaydx.github.io/framework/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://shaydx.github.io/framework/categories/</loc>
+    <loc>https://shaydx.github.io/framework/</loc>
+    <lastmod>2018-02-06T03:28:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
