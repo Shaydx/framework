@@ -13,7 +13,7 @@ $inputerror = "";
     if (empty($_POST["name"])) {
         $inputerror .= "Your name is required";
       } else {
-        $navn = test_input($_POST["name"]);
+        $name = test_input($_POST["name"]);
         if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
           $inputerror .= "Only letters and spaces in your name, Thansk!"; 
         }
@@ -31,13 +31,13 @@ $inputerror = "";
     if (empty($_POST["Subject"])) {
         $inputerror .= "A Subject is required";
       } else {
-            $henvendelse = test_input($_POST["subject"]);
+            $subject = test_input($_POST["subject"]);
       }
 
     if (empty($_POST["message"])) {
         $inputerror .= "A Message is required.";
       } else {
-        $besked = test_input($_POST["message"]);
+        $message = test_input($_POST["message"]);
       }
 
 
@@ -46,7 +46,7 @@ $subject = "Message from " . $name . " regarding " . $subject . " ";
 $headers = "From: " . $email . " ";
 
 if($inputerror == ""){
-    if($success = mail($modtager, $subject, $besked, $headers)){
+    if($success = mail($modtager, $subject, $message, $headers)){
         echo "success";
     } else{
         echo "Something went wrong!";

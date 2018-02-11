@@ -7,10 +7,10 @@ $("#kontaktmig").submit(function (event) {
 
 function submitForm() {
     // Initiate Variables With Form Content
-    var navn = $("#name").val();
+    var name = $("#name").val();
     var email = $("#email").val();
-    var henvendelse = $("#subject").val();
-    var besked = $("#message").val();
+    var subject = $("#subject").val();
+    var message = $("#message").val();
 
     $.ajax({
         type: "POST",
