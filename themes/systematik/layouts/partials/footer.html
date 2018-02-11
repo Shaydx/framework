@@ -5,6 +5,18 @@
         <p class="madeby">by <a href="http://www.mtoama.dk/">Mishari Toama</a></p>
     </div>
 </footer>
+
+<script src="{{ .Site.BaseURL }}js/nav.js"></script>
+<script src="{{ .Site.BaseURL }}js/contact.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+    $(window).load(function() {
+        $(".se-pre-con").fadeOut("slow");
+        console.log("det virker");
+    });
+</script>
 </body>
-</div>
+
 </html>

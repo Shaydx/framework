@@ -22,19 +22,19 @@ Feel free to reach out to me if you have trouble with the framework or have a ge
     <div class="container">
         <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
         <form action="" method="post" id="kontaktmig">
-            <label for="Navn">Navn</label>
-            <input type="text" id="navn" name="navn" placeholder="Dit navn">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
             <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="Din e-mail">
-            <label for="henvendelse">Jeg henvender mig vedr.:</label>
-            <select id="henvendelse" name="henvendelse">
+            <input type="email" id="email" name="email" placeholder="Your e-mail">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
                 <option value="support">Support</option>
-                <option value="tilbud">Tilbud</option>
-                <option value="prepurchase">Spørgsmål før køb</option>
+                <option value="bug">Bug</option>
+                <option value="sales">Sales</option>
               </select>
-            <label for="besked">Besked</label>
-            <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
-            <input type="submit" name="submit" value="Submit">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message.."></textarea>
+            <input type="submit" name="submit" value="Send Message">
             <div id="formfailure" class="hidden"></div>
         </form>
     </div>
