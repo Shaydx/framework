@@ -11,10 +11,13 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
     <script src="https://shaydx.github.io/framework/js/nav.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <title>Systematik</title>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
 
 <div class="header">
     <div id="myNav" class="overlay">
@@ -22,15 +25,13 @@
     <div class="overlay-content">
         
         
-        <a href="/framework/" title="Home Section">Home</a>
-        
-        <a href="/framework/om/" title="Om Section">Om</a>
-        
-        <a href="/framework/docs/" title="dokumentation Section">Dokumentation</a>
-        
+        <a href="/framework/" title="Home Section">Home</a> 
+        <a href="/framework/om/" title="Om Section">Om</a> 
+        <a href="/framework/docs/" title="dokumentation Section">Dokumentation</a> 
     </div>
 </div>
 <a href="javascript:void(0)" class="navbar" onclick="openNav()">&#9776;</a>
+
     <div class="logo">Systematik</div>
     <div class="name-container">
         <div class="name animated bounceIn">Grid</div>
@@ -38,9 +39,12 @@
     </div>
     <a href="https://shaydx.github.io/framework//docs" class="prevlink">&larr; Go Back!</a>
 </div>
-<div class="page-wrapper">
-    <h2>Grid</h2>
-    <p>Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.</p>
+<div class="wrapper-docs">
+
+
+<h2 id="grid">Grid</h2>
+
+<p>Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.
     <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1">
             <div class="box-row"></div>
@@ -68,16 +72,23 @@
             <div class="box-row"></div>
         </div>
     </div>
-    <pre><code>&lt;div class="row"&gt;
-    &lt;div class="col-xs-12
+    <pre><code>&lt;div class=&ldquo;row&rdquo;&gt;
+    &lt;div class=&ldquo;col-xs-12
                 col-sm-8
                 col-md-6
-                col-lg-4"&gt;
-        &lt;div class="box"&gt;Responsive&lt;/div&gt;
+                col-lg-4&rdquo;&gt;
+        &lt;div class=&ldquo;box&rdquo;&gt;Responsive&lt;/div&gt;
     &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
+&lt;/div&gt;</code></pre></p>
 
+<ul>
+<li>col-xs: under 768px</li>
+<li>col-sm: between 768 &amp; 1024px</li>
+<li>col-md; between 1024 &amp; 1200</li>
+<li>col-lg: over 1200px</li>
+</ul>
+
+</div>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -91,10 +102,13 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
     <script src="https://shaydx.github.io/framework/js/nav.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <title>Systematik</title>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
 
 <footer class="row">
     <div class="col-xs-12">
@@ -103,6 +117,5 @@
     </div>
 </footer>
 </body>
-
+</div>
 </html>
-

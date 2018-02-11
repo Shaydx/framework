@@ -11,10 +11,13 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
     <script src="https://shaydx.github.io/framework/js/nav.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <title>Systematik</title>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
 
 <div class="header">
     <div id="myNav" class="overlay">
@@ -22,15 +25,13 @@
     <div class="overlay-content">
         
         
-        <a href="/framework/" title="Home Section">Home</a>
-        
-        <a href="/framework/om/" title="Om Section">Om</a>
-        
-        <a href="/framework/docs/" title="dokumentation Section">Dokumentation</a>
-        
+        <a href="/framework/" title="Home Section">Home</a> 
+        <a href="/framework/om/" title="Om Section">Om</a> 
+        <a href="/framework/docs/" title="dokumentation Section">Dokumentation</a> 
     </div>
 </div>
 <a href="javascript:void(0)" class="navbar" onclick="openNav()">&#9776;</a>
+
     <div class="logo">Systematik</div>
     <div class="name-container">
         <div class="name animated bounceIn">Colors</div>
@@ -38,8 +39,24 @@
     </div>
     <a href="https://shaydx.github.io/framework//docs" class="prevlink">&larr; Go Back!</a>
 </div>
-<p>Farver</p>
+<div class="wrapper-docs">
 
+
+<h2 id="changing-colors-in-splash">Changing colors in Splash</h2>
+
+<p><p>To change the colors of the gradient in the splash section of the frontpage, go to <strong>style.css</strong> and find: </p>
+        <pre><code>.splash {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    height: 100vh;
+}</code></pre>
+<p>and change the value to any color you like. the <strong>-45deg</strong> can also be changed to change how the gradient is displayed.</p>
+<pre><code>background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);</code></pre></p>
+
+</div>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,10 +70,13 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
     <script src="https://shaydx.github.io/framework/js/nav.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <title>Systematik</title>
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
 
 <footer class="row">
     <div class="col-xs-12">
@@ -65,6 +85,5 @@
     </div>
 </footer>
 </body>
-
+</div>
 </html>
-
