@@ -349,12 +349,12 @@ form {
 /* --- OUTLINE --- */
 
 .primary-outline {
-    color: #007bff;
-    border-color: #007bff;
+    color: #E73C7E;
+    border-color: #E73C7E;
 }
 
 .primary-outline:hover {
-    background-color: #007bff;
+    background-color: #E73C7E;
     color: #fff;
     transition: .15s ease-in-out;
 }
@@ -447,6 +447,11 @@ form {
 
 
 /* --- Disabled state ---*/
+
+input:disabled {
+    opacity: 0.65;
+    cursor: no-drop;
+}
 
 .btn:disabled {
     opacity: 0.65;
@@ -620,6 +625,7 @@ img[src$='#pageimg'] {
 }
 
 input[type=text],
+input[type=password],
 input[type=email],
 select,
 textarea {
@@ -670,6 +676,10 @@ input[type=submit]:hover {
 .img-om {
     height: auto;
     width: 100%;
+}
+
+.register {
+    width: 800px;
 }
 
 /* ==========================================================================

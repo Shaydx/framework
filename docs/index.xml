@@ -26,7 +26,7 @@
       <pubDate>Tue, 06 Feb 2018 03:15:08 +0100</pubDate>
       
       <guid>https://shaydx.github.io/framework/docs/forms/</guid>
-      <description></description>
+      <description> Forms Login Form (Viewed in Desktop)   Login Forgot Password   Alternative Login Form   Login Forgot Password    Sign up Form        Sign Up Clear   Disabled Forms   Login Forgot Password    </description>
     </item>
     
     <item>
@@ -56,7 +56,9 @@
       <pubDate>Thu, 01 Feb 2018 08:53:29 +0100</pubDate>
       
       <guid>https://shaydx.github.io/framework/docs/typography/</guid>
-      <description>Typografi</description>
+      <description> Header H1 Header H2 Header H3 Header H4 Header H5 Header H6 This is a paragraph
+ This is a Blockquote
+ onclick=&amp;quot;document.getElementById(&#39;demo&#39;).innerHTML = Date()&amp;quot;&amp;gt;  </description>
     </item>
     
     <item>
