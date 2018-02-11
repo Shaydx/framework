@@ -1,5 +1,5 @@
 <?php
-$navn = $email = $henvendelse = $besked = "";
+$name = $email = $subject = $message = "";
 
 function test_input($formdata) {
   $formdata = trim($formdata);
@@ -10,39 +10,39 @@ function test_input($formdata) {
 
 $inputerror = "";
 
-    if (empty($_POST["navn"])) {
-        $inputerror .= "Udfyld venligst navn";
+    if (empty($_POST["name"])) {
+        $inputerror .= "Your name is required";
       } else {
-        $navn = test_input($_POST["navn"]);
-        if (!preg_match("/^[a-zA-Z ]*$/",$navn)) {
-          $inputerror .= "Kun bogstaver og mellemrum i navnet, tak!"; 
+        $navn = test_input($_POST["name"]);
+        if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+          $inputerror .= "Only letters and spaces in your name, Thansk!"; 
         }
       }
     
     if (empty($_POST["email"])) {
-        $inputerror .= "Udfyld venligst e-mail";
+        $inputerror .= "Your email is required";
       } else {
         $email = test_input($_POST["email"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-          $inputerror .= "Indtast venligst korrekt e-mail format"; 
+          $inputerror .= "Enter a valid email address."; 
         }
       }
     
-    if (empty($_POST["henvendelse"])) {
-        $inputerror .= "Årsag for henvendelse skal udfyldes";
+    if (empty($_POST["Subject"])) {
+        $inputerror .= "A Subject is required";
       } else {
-            $henvendelse = test_input($_POST["henvendelse"]);
+            $henvendelse = test_input($_POST["subject"]);
       }
 
-    if (empty($_POST["besked"])) {
-        $inputerror .= "Indtast venligst lidt i tekstfeltet om hvorfor du vil i kontakt med os.";
+    if (empty($_POST["message"])) {
+        $inputerror .= "A Message is required.";
       } else {
-        $besked = test_input($_POST["besked"]);
+        $besked = test_input($_POST["message"]);
       }
 
 
 $modtager = "mt@mtoama.dk";
-$subject = "Besked fra " . $navn . " om " . $henvendelse . " ";
+$subject = "Message from " . $name . " regarding " . $subject . " ";
 $headers = "From: " . $email . " ";
 
 if($inputerror == ""){
