@@ -1,5 +1,5 @@
 <?php
-$name = $email = $subject = $message = "";
+$navn = $email = $henvendelse = $besked = "";
 
 function test_input($formdata) {
   $formdata = trim($formdata);
@@ -10,43 +10,43 @@ function test_input($formdata) {
 
 $inputerror = "";
 
-    if (empty($_POST["name"])) {
-        $inputerror .= "Your name is required";
+    if (empty($_POST["navn"])) {
+        $inputerror .= "Udfyld venligst navn";
       } else {
-        $name = test_input($_POST["name"]);
-        if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-          $inputerror .= "Only letters and spaces in your name, Thansk!"; 
+        $navn = test_input($_POST["navn"]);
+        if (!preg_match("/^[a-zA-Z ]*$/",$navn)) {
+          $inputerror .= "Kun bogstaver og mellemrum i navnet, tak!"; 
         }
       }
     
     if (empty($_POST["email"])) {
-        $inputerror .= "Your email is required";
+        $inputerror .= "Udfyld venligst e-mail";
       } else {
         $email = test_input($_POST["email"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-          $inputerror .= "Enter a valid email address."; 
+          $inputerror .= "Indtast venligst korrekt e-mail format"; 
         }
       }
     
-    if (empty($_POST["Subject"])) {
-        $inputerror .= "A Subject is required";
+    if (empty($_POST["henvendelse"])) {
+        $inputerror .= "Årsag for henvendelse skal udfyldes";
       } else {
-            $subject = test_input($_POST["subject"]);
+            $henvendelse = test_input($_POST["henvendelse"]);
       }
 
-    if (empty($_POST["message"])) {
-        $inputerror .= "A Message is required.";
+    if (empty($_POST["besked"])) {
+        $inputerror .= "Indtast venligst lidt i tekstfeltet om hvorfor du vil i kontakt med os.";
       } else {
-        $message = test_input($_POST["message"]);
+        $besked = test_input($_POST["besked"]);
       }
 
 
 $modtager = "mt@mtoama.dk";
-$subject = "Message from " . $name . " regarding " . $subject . " ";
+$subject = "Besked fra " . $navn . " om " . $henvendelse . " ";
 $headers = "From: " . $email . " ";
 
 if($inputerror == ""){
-    if($success = mail($modtager, $subject, $message, $headers)){
+    if($success = mail($modtager, $subject, $besked, $headers)){
         echo "success";
     } else{
         echo "Something went wrong!";

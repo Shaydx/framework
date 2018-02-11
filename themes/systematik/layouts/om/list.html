@@ -14,7 +14,7 @@
             <p>Created and designed by Mishari Toama, a Multimediadesign student at Copenhagen School of Design and Technology. Systematic incorporates minimalism with modernism and a colorful palette.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="/framework/img/mobile-first.png" height="auto" width="600px" alt="Mobile First" />
+            <img src="/framework/img/mobile-first.png" class="img-om" alt="Mobile First" />
             <p>Designed with the mobile first approach in mind, this framework will work fanstatically on any mobile or tablet.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -27,25 +27,32 @@
         </div>
     </div>
     <section class="row">
-        <div class="container">
-            <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
-            <form action="" method="post" id="kontaktmig">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Your e-mail">
-                <label for="subject">Subject</label>
-                <select id="subject" name="subject">
+    <div class="container">
+        <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
+          <form action="" method="post" id="kontaktmig">
+
+              <label for="Navn">Name</label>
+              <input type="text" id="navn" name="navn" placeholder="Name">
+
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Your e-mail">
+
+              <label for="henvendelse">Subject</label>
+              <select id="henvendelse" name="henvendelse">
                 <option value="support">Support</option>
-                <option value="bug">Bug</option>
-                <option value="sales">Sales</option>
+                <option value="tilbud">Bug</option>
+                <option value="prepurchase">Pre-Purchase</option>
               </select>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your Message.."></textarea>
-                <input type="submit" name="submit" value="Send Message">
-                <div id="formfailure" class="hidden"></div>
-            </form>
-        </div>
+
+              <label for="besked">Message</label>
+              <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
+
+              <input type="submit" name="submit" value="Send">
+              
+              <div id="formfailure" class="hidden"></div>
+          </form>
+
+      </div>
     </section>
 </div>
 {{ partial "footer.html" . }}
