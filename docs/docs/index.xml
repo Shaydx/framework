@@ -17,8 +17,7 @@
       <pubDate>Tue, 06 Feb 2018 03:28:55 +0100</pubDate>
       
       <guid>https://shaydx.github.io/framework/docs/animations/</guid>
-      <description> hej Mull  bla bla bla
- </description>
+      <description>Animations Select an option and click animate   bounce flash pulse rubberBand shake swing tada wobble jello  bounceIn bounceInDown bounceInLeft bounceInRight bounceInUp  bounceOut bounceOutDown bounceOutLeft bounceOutRight bounceOutUp  fadeIn fadeInDown fadeInDownBig fadeInLeft fadeInLeftBig fadeInRight fadeInRightBig fadeInUp fadeInUpBig  fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig  flip flipInX flipInY flipOutX flipOutY  lightSpeedIn lightSpeedOut  rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight  rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight  slideInUp slideInDown slideInLeft slideInRight  slideOutUp slideOutDown slideOutLeft slideOutRight  zoomIn zoomInDown zoomInLeft zoomInRight zoomInUp  zoomOut zoomOutDown zoomOutLeft zoomOutRight zoomOutUp  hinge jackInTheBox rollIn rollOut   Animate  Just change the bounceInDown with the animation name you like and that&amp;rsquo;s it.</description>
     </item>
     
     <item>
@@ -31,12 +30,14 @@
     </item>
     
     <item>
-      <title>Javascript</title>
-      <link>https://shaydx.github.io/framework/docs/javascript/</link>
-      <pubDate>Tue, 06 Feb 2018 03:13:11 +0100</pubDate>
+      <title>Buttons</title>
+      <link>https://shaydx.github.io/framework/docs/buttons/</link>
+      <pubDate>Tue, 06 Feb 2018 03:07:26 +0100</pubDate>
       
-      <guid>https://shaydx.github.io/framework/docs/javascript/</guid>
-      <description></description>
+      <guid>https://shaydx.github.io/framework/docs/buttons/</guid>
+      <description>Buttons Primary Secondary Success Danger Warning Info Light Dark
+&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn primary&amp;quot;&amp;gt;Primary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn secondary&amp;quot;&amp;gt;Secondary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn successful&amp;quot;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn danger&amp;quot;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn warning&amp;quot;&amp;gt;Warning&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn info&amp;quot;&amp;gt;Info&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn light&amp;quot;&amp;gt;Light&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn dark&amp;quot;&amp;gt;Dark&amp;lt;/button&amp;gt;  Outlined Buttons Primary Secondary Success Danger Warning Info Light Dark
+&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn primary-outline&amp;quot;&amp;gt;Primary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn secondary-outline&amp;quot;&amp;gt;Secondary&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn success-outline&amp;quot;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn danger-outline&amp;quot;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn warning-outline&amp;quot;&amp;gt;Warning&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn info-outline&amp;quot;&amp;gt;Info&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn light-outline&amp;quot;&amp;gt;Light&amp;lt;/button&amp;gt; &amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;btn dark-outline&amp;quot;&amp;gt;Dark&amp;lt;/button&amp;gt;  Big Buttons Primary Secondary</description>
     </item>
     
     <item>

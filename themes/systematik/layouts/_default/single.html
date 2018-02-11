@@ -3,7 +3,7 @@
     {{ partial "nav.html" . }}
     <div class="logo">{{ .Site.Title }}</div>
     <div class="name-container">
-        <div class="name animated bounceIn">{{ .Title }}</div>
+         <span id="animationSandbox" style="display: block;"><h1 class="site__title mega centered">        <div class="name animated bounceIn">{{ .Title }}</div></h1></span>
         <div class="desc animated fadeInUp">{{ .Description}}</div>
     </div>
     <a href="{{ .Site.BaseURL }}/{{ .Section }}" class="prevlink">&larr; Go Back!</a>
