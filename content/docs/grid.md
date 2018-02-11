@@ -2,9 +2,8 @@
 title: "Grid"
 date: 2018-02-06T02:57:57+01:00
 ---
-<div class="page-wrapper">
-    <h2>Grid</h2>
-    <p>Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.</p>
+## Grid
+Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.
     <div class="row">
         <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1">
             <div class="box-row"></div>
@@ -40,4 +39,8 @@ date: 2018-02-06T02:57:57+01:00
         &lt;div class="box"&gt;Responsive&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
-</div>
+
+- col-xs: under 768px
+- col-sm: between 768 & 1024px
+- col-md; between 1024 & 1200
+- col-lg: over 1200px

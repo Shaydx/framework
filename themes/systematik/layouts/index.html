@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 <div class="splash">
     {{ partial "nav.html" . }}
-    <div class="logo">{{ .Site.Title }}</div>
+    <a href="index.html" class="logo">{{ .Site.Title }}</a>
     <div class="name-container">
-        <div class="name animated bounceInDown">Animated Splash</div>
-        <div class="desc animated fadeInLeft">Can be any color</div>
+        <div class="name animated bounceInDown">Systematik</div>
+        <div class="desc animated fadeInLeft">Simply Amazing</div>
     </div>
 </div>
 <section id="intro">
@@ -24,7 +24,7 @@
                     <i class="fas fa-mobile-alt"></i>
                 </div>
                 <p class="promo-caption">Mobile Friendly</p>
-                <p class="promo-desc">We did most of the heavy lifting for you to provide a framework  that is completly mobile friendly</p>
+                <p class="promo-desc">We did most of the heavy lifting for you to provide a framework that is completly mobile friendly</p>
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
@@ -37,42 +37,11 @@
             </div>
         </div>
     </div>
-    <h2>Grid</h2>
-    <p>Responsive modifiers enable specifying different column sizes, offsets, alignment and distribution at xs, sm, md &amp; lg viewport widths.</p>
-    <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1">
-            <div class="box-row"></div>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-8 col-lg-10">
-            <div class="box-row"></div>
-        </div>
-        <div class="col-xs-6 col-sm-3 col-md-2 col-lg-1">
-            <div class="box-row"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1">
-            <div class="box-row"></div>
-        </div>
-        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-11">
-            <div class="box-row"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-10 col-sm-6 col-md-8 col-lg-10">
-            <div class="box-row"></div>
-        </div>
-        <div class="col-xs-2 col-sm-6 col-md-4 col-lg-2">
-            <div class="box-row"></div>
-        </div>
-    </div>
-    <pre><code>&lt;div class="row"&gt;
-    &lt;div class="col-xs-12
-                col-sm-8
-                col-md-6
-                col-lg-4"&gt;
-        &lt;div class="box"&gt;Responsive&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
 </section>
+<script>
+    $(window).load(function() {
+        $(".se-pre-con").fadeOut("slow");
+        console.log("det virker");
+    });
+</script>
 {{ partial "footer.html" . }}

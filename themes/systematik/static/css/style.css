@@ -7,6 +7,28 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     background: #EEE;
+    overflow-x: hidden;
+}
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(https://i.imgur.com/agXHN8c.gif) center no-repeat #fff;
 }
 
 .splash {
@@ -321,6 +343,10 @@ pre {
     word-wrap: normal;
 }
 
+code {
+    color: #E73C7E;
+}
+
 .page-wrapper {
     margin: 1rem;
 }
@@ -328,9 +354,78 @@ pre {
 .header > .prevlink {
     text-decoration: none;
     color: #fff;
-	position: absolute;
-	bottom: 1rem;
-	left: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+
+.header-img {
+    max-width: 100vw;
+    height: auto;
+    margin-top: -18px;
+}
+
+.page-img {}
+
+.wrapper-docs {
+    padding: 20px;
+}
+
+
+/* hugo css */
+
+img[src$='#pageimg'] {
+    height: auto;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#formfailure {
+    background-color: red;
+    padding: 1em;
 }
 
 /* ==========================================================================
@@ -372,6 +467,8 @@ pre {
         transition: 0.6s ease-in;
     }
 
-
-
+    img[src$='#pageimg'] {
+        height: auto;
+        width: auto;
+    }
 }

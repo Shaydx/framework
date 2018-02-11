@@ -1,11 +1,41 @@
 ---
 title: "About Systematik"
 date: 2018-02-01T08:45:08+01:00
-description: "Page Description"
+description: "Modern. Simple. Mobile."
 ---
+## A modern responsive front-end framework  
+Created and designed by Mishari Toama, a Multimediadesign student at Copenhagen School of Design and Technology. Systematic incorporates minimalism with modernism and a colorful palette.
 
-# Hello World!
+![Mobile First](/framework/img/mobile-first.png#pageimg)
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Designed with the mobile first approach in mind, this framework will work fanstatically on any mobile or tablet.
 
-> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+## Hugo
+
+This framework was made for Hugo, the worlds fastest static site generators. Hugo and Systematic together delivers a fast and unique experience.
+
+## Contact Me
+
+Feel free to reach out to me if you have trouble with the framework or have a general inquiry.
+
+<section class="row">
+    <div class="container">
+        <div id="formfeedback" class="hidden">Vi vender tilbage snarest!</div>
+        <form action="" method="post" id="kontaktmig">
+            <label for="Navn">Navn</label>
+            <input type="text" id="navn" name="navn" placeholder="Dit navn">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Din e-mail">
+            <label for="henvendelse">Jeg henvender mig vedr.:</label>
+            <select id="henvendelse" name="henvendelse">
+                <option value="support">Support</option>
+                <option value="tilbud">Tilbud</option>
+                <option value="prepurchase">Spørgsmål før køb</option>
+              </select>
+            <label for="besked">Besked</label>
+            <textarea id="besked" name="besked" placeholder="Din besked.."></textarea>
+            <input type="submit" name="submit" value="Submit">
+            <div id="formfailure" class="hidden"></div>
+        </form>
+    </div>
+</section>
